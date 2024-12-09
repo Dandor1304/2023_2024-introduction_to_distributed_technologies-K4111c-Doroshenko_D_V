@@ -120,8 +120,12 @@ spec:
             port:
               number: 3000
 ```
-9. Проверим работу приложения
-![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab3/screenshot/Pasted%20image%2020241209163644.png)
-![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab3/screenshot/Pasted%20image%2020241209163705.png)
-10 Создадим схему данной лабораторной работы
+9. Проверим работу приложения  
 
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab3/screenshot/Pasted%20image%2020241209163644.png)  
+
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab3/screenshot/Pasted%20image%2020241209163705.png)
+
+10 Создадим схему данной лабораторной работы  
+
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab3/screenshot/Диаграмма%20без%20названия.drawio%20(17).png)
