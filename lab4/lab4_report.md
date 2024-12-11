@@ -1,12 +1,12 @@
-University: ITMO University
-Faculty: FICT
-Course: Introduction to distributed technologies
-Year: 2024/2025
-Group: K4111c
-Author: Doroshenko Daniil Vadimovich
-Lab: Lab4
-Date of create: 11.12.2024
-Date of finished: 12.11.2024
+University: ITMO University  
+Faculty: FICT  
+Course: Introduction to distributed technologies  
+Year: 2024/2025  
+Group: K4111c  
+Author: Doroshenko Daniil Vadimovich  
+Lab: Lab4  
+Date of create: 11.12.2024  
+Date of finished: 12.11.2024  
 
 **CNI (Container Network Interface)** — это стандартный интерфейс, разработанный для упрощения сетевого взаимодействия контейнеров в Kubernetes (и других системах). CNI позволяет подключать сетевые плагины к контейнерным платформам, чтобы обеспечить контейнерам сетевые возможности, такие как подключение к сетям, управление IP-адресами и маршрутизацией.
 
