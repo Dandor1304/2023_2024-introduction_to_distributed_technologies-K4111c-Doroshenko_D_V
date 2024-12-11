@@ -9,7 +9,7 @@ minikube start --network-plugin=cni --cni=calico --nodes 2 -p multinode-demo
 
 - **Проверим конфигурацию кластера**
 
-![[Pasted image 20241211220822.png]]
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab4/images/Pasted%20image%2020241211220822.png)
 
 - **Указать label для ноды**
 ```shell
@@ -17,7 +17,7 @@ kubectl label nodes multinode-demo rack=1
 kubectl label nodes multinode-demo-m02 rack=2
 kubectl get no --show-labels
 ```
-![[Pasted image 20241211223149.png]]
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab4/images/Pasted%20image%2020241211223149.png)
 
 - **Создадим пулы ip адресов  и установим утилиту calicoctl**
 ```shell
@@ -27,7 +27,7 @@ calicoctl create -f ippool1
 calicoctl create -f ippool2
 ```
 
-![[Pasted image 20241211230942.png]]
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab4/images/Pasted%20image%2020241211230942.png)
 - **Создать сервис NodePort**
 ```yaml
 apiVersion: v1
@@ -74,12 +74,13 @@ spec:
 
 ```
 - **Проверить работоспособность приложения**
-![[Pasted image 20241212001507.png]]
 
-![[Pasted image 20241212001533.png]]
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab4/images/Pasted%20image%2020241212001507.png)
 
-![[Pasted image 20241212001813.png]]
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab4/images/Pasted%20image%2020241212001533.png)
+
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab4/images/Pasted%20image%2020241212001813.png)
 - **Пинг соседнего пода**  
 
-![[Pasted image 20241212003258.png]]
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab4/images/Pasted%20image%2020241212003258.png)
 - **Создадим схему**
