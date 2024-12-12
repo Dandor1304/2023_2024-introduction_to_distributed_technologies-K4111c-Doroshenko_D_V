@@ -94,3 +94,5 @@ spec:
 
 ![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab4/images/Pasted%20image%2020241212003258.png)
 - **Создадим схему**
+
+![](https://github.com/Dandor1304/2024_2025-introduction_to_distributed_technologies-K4111c-Doroshenko_D_V/blob/main/lab4/images/Диаграмма%20без%20названия.drawio%20(18).png)
